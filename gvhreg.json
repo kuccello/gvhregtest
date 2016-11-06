@@ -1,0 +1,20 @@
+{
+  "gvh_registry":[
+    {
+      "name":"FooPlugin",
+      "location":"",
+      "description":"",
+      "logo":"",
+      "addedOn":"",
+      "website":""
+    },
+    {
+      "name":"BarPlugin",
+      "location":"",
+      "description":"",
+      "logo":"",
+      "addedOn":"",
+      "website":""
+    },
+  ]
+}
