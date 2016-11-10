@@ -11,8 +11,8 @@
      "versions":[
        {"version":"1.0.0.0",
         "files":[
-          {"asset":"Assets/TestMyTheory/Foo.cs"},
-          {"meta":"Assets/TestMyTheory/Foo.cs.meta"},
+          {"asset":"TestMyTheory/Foo.cs"},
+          {"meta":"TestMyTheory/Foo.cs.meta"},
           
         ],
         "dependances":[
