@@ -1,20 +1,30 @@
 {
-  "gvh_registry":[
-    {
-      "name":"FooPlugin",
-      "location":"",
-      "description":"",
-      "logo":"",
-      "addedOn":"",
-      "website":""
-    },
-    {
-      "name":"BarPlugin",
-      "location":"",
-      "description":"",
-      "logo":"",
-      "addedOn":"",
-      "website":""
-    },
+  "name":"Test Unity Plugin Registry",
+  "version":"0.0.0.1",
+  "lastUpdate":1478746267,
+  "productionSet": [
+   	{"name":"FooPlugin",
+     "bestVersion":"1.0.0.0",
+     "releasedOn":1478746267,
+     "maintainer":"test@example.com",
+     "refURL":"https://github.com/kuccello/gvhregtest/raw/master/plugins/test.unitypackage",
+     "versions":[
+       {"version":"1.0.0.0",
+        "files":[
+          {"asset":"Assets/FooPlugin/scripts/myscript.cs"},
+          {"meta":"Assets/FooPlugin/scripts/myscript.cs.meta"},
+          
+        ],
+        "dependances":[
+          {"android-dependency":{
+             "groupId":"com.google.android.gms",
+             "Play-services-games":"play-services-games",
+             "version":"9.6.0",
+             "packageIds":"extra-google-m2repository"}
+          }
+        ]
+       },
+     ]
+    }
   ]
 }
